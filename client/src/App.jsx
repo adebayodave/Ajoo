@@ -6,11 +6,11 @@ function App() {
 
   return (
     <>
-    <header className='flex  '>
+    <header className='flex justify-around'>
           <img src={logo} alt="" />
-          <nav>
-            <p>Login</p>
-            <p>Sign Up</p>
+          <nav className='flex '>
+            <p className=' text-xl'>Login</p>
+            <p className=' text-xl'>Sign Up</p>
           </nav> 
         </header>
     </>
